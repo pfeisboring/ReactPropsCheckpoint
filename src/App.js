@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App" style={styleObject}>
-      <ProfileComponent fullName="Walid Boulima" bio="hello" profession="Etudiant" props={<img src="/cv.jpg" alt="Range Rover"></img>} ></ProfileComponent>
+      <ProfileComponent fullName="Walid Boulima" bio="hello" profession="Etudiant" ><img src="/cv.jpg" alt="Range Rover"></img></ProfileComponent>
      </div>
   );
 }

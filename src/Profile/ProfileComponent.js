@@ -1,17 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const ProfileComponent = ({ fullName, bio, profession,props }) => {
+const ProfileComponent = ({ fullName, bio, profession,children }) => {
 const handleName= e => { 
         e.preventDefault();
-        alert({fullName});
+        alert(fullName);
     };
     return (
         <div>   
         <a href="/" onClick={handleName}>
     Click me
         </a>
-        <h1>{props.children}</h1>
+        <h1>{children}</h1>
         </div>
 );
 };
